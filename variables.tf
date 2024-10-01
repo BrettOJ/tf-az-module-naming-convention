@@ -32,13 +32,4 @@ variable "azlimits" {
 
 variable "naming_convention_info" {
   description = "(Required) Specify the naming convention parameters"
-  # type = object({
-  #     res_type = string 
-  #     project_code = string
-  #     env =  string
-  #     zone =  string 
-  #     tier = string
-  #     name = string
-  #     instance_count = number
-  # })
 }
